@@ -1,0 +1,21 @@
+@import 'mixin';
+
+h1{
+    @include transform
+}
+
+h1:hover {
+    height: 100px;
+    background-color: black;
+    @include transform
+}
+
+p:hover {
+    height: 100px;
+    background-color: black;
+    @include transform
+}
+
+button:hover{
+    @include buttons;
+}

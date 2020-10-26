@@ -1,0 +1,14 @@
+@mixin transform {
+    height: 100px;
+    transition: 2s;    
+}
+
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+}
+@mixin buttons {
+    padding: 20px;
+    color: white;
+    
+}
